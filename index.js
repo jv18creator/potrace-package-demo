@@ -5,7 +5,7 @@ const { randomIntFromInterval } = require("./utils");
 
 // You'll find the SVG's in converted folder
 potrace.trace(
-  `./images/${randomIntFromInterval(1, 5)}.jpg`,
+  `./images/3.jpg`,
   //   { steps: [40, 85, 135, 180], color: "#ccc", background: "#0000FF" }, PARAMS
   function (err, svg) {
     if (err) throw err;
